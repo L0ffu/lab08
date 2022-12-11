@@ -48,7 +48,7 @@ return a<0? -a : a;
 
 
 ```
- int count\_words(char\* text){
+int count\_words(char\* text){
 
 int count = 0;
 
@@ -72,7 +72,8 @@ is\_word\_begin = 1;
 
 return count;
 
-} ```
+}
+```
 
 ![](https://github.com/L0ffu/lab08/blob/main/lab08_/doc/asssets/count_words.png)
 
