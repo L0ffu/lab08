@@ -20,7 +20,7 @@
 
 1. **Написання функцій(Які будуть у кінці коду)**
 
-``
+```
  int gcd(int a, int b){
 
 while(b)
@@ -30,7 +30,7 @@ b ^= a ^= b ^= a %= b;
 return a<0? -a : a;
 
 }
-``
+```
 
 
 ![](https://github.com/L0ffu/lab08/blob/main/lab08_/doc/asssets/gcd.png)
@@ -47,7 +47,7 @@ return a<0? -a : a;
 
 
 
-``
+```
  int count\_words(char\* text){
 
 int count = 0;
@@ -72,7 +72,7 @@ is\_word\_begin = 1;
 
 return count;
 
-} ``
+} ```
 
 ![](https://github.com/L0ffu/lab08/blob/main/lab08_/doc/asssets/count_words.png)
 
