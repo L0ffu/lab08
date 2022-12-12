@@ -16,10 +16,11 @@
 
 *Графічна структура:*
 
-![](https://github.com/L0ffu/lab08/raw/main/lab08_/doc/asssets/gcd.png)
+![](https://github.com/L0ffu/lab08/raw/main/lab08_/doc/asssets/prog.png)
 
 1. **Написання функцій(Які будуть у кінці коду)**
-- ```
+
+```
 
 int gcd(int a, int b){
 
@@ -31,14 +32,14 @@ return a<0? -a : a;
 
 }
 
-\```
+```
 
-![](https://github.com/L0ffu/lab08/raw/main/lab08_/doc/asssets/count_words.png)
+![](https://github.com/L0ffu/lab08/raw/main/lab08_/doc/asssets/gcd.png)
 
 За допомоги цієї функції ми змінюємо місцями а та b.
 
 
-- ```
+```
 
 int count\_words(char\* text){
 
@@ -66,9 +67,9 @@ return count;
 
 }
 
-\```
+```
 
-![](Aspose.Words.6fee3e12-a1d4-4005-a406-4868d74657ab.003.png)
+![](https://github.com/L0ffu/lab08/raw/main/lab08_/doc/asssets/count_words.png)
 
 За допомогою цієї функції ми рахуємо кількість слів у тексту
 
@@ -76,9 +77,11 @@ return count;
 
 Виклик функцій перед основою частиною.
 
-- int gcd(int a, int b);
+```
+int gcd(int a, int b);
 - int count\_words(char\* text);
 - void random\_spaces(char\* text);
+```
 
 Робимо функції через виклик для спрощення самого коду.
 
@@ -103,11 +106,11 @@ return count;
 
 *└── src*
 
-`    `*├── lib.c*
+    *├── lib.c*
 
-`    `*├── lib.h*
+    *├── lib.h*
 
-`    `*└── main.c*
+    *└── main.c*
 
 **Варіанти використання:**
 
