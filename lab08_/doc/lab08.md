@@ -16,12 +16,12 @@
 
 *Графічна структура:*
 
-![](https://github.com/L0ffu/lab08/blob/main/lab08_/doc/asssets/prog.png)
+![](https://github.com/L0ffu/lab08/raw/main/lab08_/doc/asssets/gcd.png)
 
 1. **Написання функцій(Які будуть у кінці коду)**
+- ```
 
-```
- int gcd(int a, int b){
+int gcd(int a, int b){
 
 while(b)
 
@@ -30,24 +30,16 @@ b ^= a ^= b ^= a %= b;
 return a<0? -a : a;
 
 }
-```
 
+\```
 
-![](https://github.com/L0ffu/lab08/blob/main/lab08_/doc/asssets/gcd.png)
+![](https://github.com/L0ffu/lab08/raw/main/lab08_/doc/asssets/count_words.png)
 
 За допомоги цієї функції ми змінюємо місцями а та b.
 
 
+- ```
 
-
-
-
-
-
-
-
-
-```
 int count\_words(char\* text){
 
 int count = 0;
@@ -73,12 +65,12 @@ is\_word\_begin = 1;
 return count;
 
 }
-```
 
-![](https://github.com/L0ffu/lab08/blob/main/lab08_/doc/asssets/count_words.png)
+\```
+
+![](Aspose.Words.6fee3e12-a1d4-4005-a406-4868d74657ab.003.png)
 
 За допомогою цієї функції ми рахуємо кількість слів у тексту
-
 
 1. **Написання функцій(Які будуть у кінці коду)**
 
